@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
-* main - Entry point
+* main - Entry point.
 *
-* Description: This is a description
-* Return: 0 is always returned.
+* Description: Error output.
+* Return: Always return 1 if successful.
 */
 int main(void)
 {
