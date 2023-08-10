@@ -3,7 +3,7 @@
 * main - Entry point.
 *
 * Description: Error output.
-* Return: Always return 1 if successful.
+* Return: Would always return 1 if successful.
 */
 int main(void)
 {
