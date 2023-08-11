@@ -1,24 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - print alpha in caps, low
+ * main - main func
  *
- * Return: (0)
- *
+ * Return: always 0
  */
+
 int main(void)
 {
-	char lower = 'a';
-	char upper = 'A';
+	char i;
 
-	while (lower <= 'z')
-	{
-		putchar(lower);
-		lower++;
-	}
-	while (upper <= 'Z')
-	{
-		putchar(upper);
-		upper++;
-	}
+	for (i = 'a' ; i <= 'z' ; i++)
+		putchar(i);
+	for (i = 'A' ; i <= 'Z' ; i++)
+		putchar(i);
 	putchar('\n');
+	return (0);
 }
