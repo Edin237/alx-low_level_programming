@@ -6,14 +6,14 @@
  * @n: no of inputs
  */
 
-void print_diagonal(int e)
+void print_diagonal(int n)
 {
-	int i, j;
+	int e, j;
 
-	for (i = 0; i < e; i++)
+	for (e = 0; e < n; e++)
 	{
-		if (e > 1)
-			for (j = 0; j < i; j++)
+		if (n > 1)
+			for (j = 0; j < e; j++)
 			{
 				_putchar(' ');
 			}
@@ -21,7 +21,7 @@ void print_diagonal(int e)
 		_putchar('\n');
 	}
 
-	if (e <= 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
